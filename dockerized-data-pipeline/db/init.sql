@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS stock_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    symbol VARCHAR(10),
+    price DOUBLE,
+    volume BIGINT,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
